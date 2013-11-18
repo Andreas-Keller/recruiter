@@ -76,6 +76,8 @@ public class FrontendController {
 		document.setName(getFileName(file));
 
 		documentRepository.save(document);
+		
+		//TODO: return Bestätigungs Seite
 	}
 
 	private String getFileName(Part part) {
