@@ -37,7 +37,7 @@ public class ApplicationConfig {
 
 		return dataSource;
 	}
-
+ 
 	@Bean(name = "entityManagerFactory")
 	public EntityManagerFactory entityManagerFactory() {
 		HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
